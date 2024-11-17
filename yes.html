@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* The hidden gradient div */
+    .gradient-text {
+      font-size: 4rem; /* Adjust as needed */
+      font-weight: bold; /* Optional */
+      color: transparent; /* Makes the text itself transparent */
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #00ff00,
+        #0000ff
+      ); /* Gradient applied */
+      -webkit-background-clip: text; /* Clips the background to the text */
+      background-clip: text; /* Ensures compatibility */
+      -webkit-text-stroke: 2px black; /* Optional: adds a stroke around the text */
+    }
+  </style>
+  <body>
+    <div class="gradient-background">
+      <h1 class="gradient-text">Your Text</h1>
+    </div>
+  </body>
+</html>
