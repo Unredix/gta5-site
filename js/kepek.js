@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let imges = [
     "../assets/playtime.png",
     "../assets/progress.png",
-    "../assets/progress.png",
-    "../assets/progress.png",
+    "../assets/kockak.jpg",
+    "../assets/tabletta.jpg",
   ];
   let image_text = ["Játékidő", "Haladás", "Haladás", "Haladás"];
   let pic_holder = document.getElementById("imghold");
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   forward_b.addEventListener("click", () => changeImg(1));
   backward_b.addEventListener("click", () => changeImg(-1));
   pic_holder.addEventListener("click", openImg);
+
   function changeImg(num) {
     index += num;
     if (index < 0) index = imges.length - 1;
@@ -25,5 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ).innerHTML = `<p>${image_text[index]}</p>`;
   }
 
-  function openImg() {}
+  function openImg() {
+    window.open(`${imges[index]}`, "_blank");
+  }
 });
