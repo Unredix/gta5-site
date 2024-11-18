@@ -1,5 +1,5 @@
 window.addEventListener("scroll", function () {
-  var title_text = document.querySelector(".main-title-text");
+  let title_text = document.querySelector(".main-title-text");
   if (window.scrollY > 200) {
     this.document.getElementById("main-title").style.backgroundImage = "none";
   }
