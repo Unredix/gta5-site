@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let imges = [
+  const imges = [
     "../assets/playtime.png",
     "../assets/progress.png",
     "../assets/kockak.jpg",
     "../assets/tabletta.jpg",
   ];
-  let image_text = ["Játékidő", "Haladás", "Haladás", "Haladás"];
-  let pic_holder = document.getElementById("imghold");
-  let forward_b = document.getElementById("forward-b");
-  let backward_b = document.getElementById("backward-b");
+  const image_text = ["Játékidő", "Haladás", "Haladás", "Haladás"];
+  const pic_holder = document.getElementById("imghold");
+  const forward_b = document.getElementById("forward-b");
+  const backward_b = document.getElementById("backward-b");
 
   let index = 0;
 
