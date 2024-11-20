@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const imges = [
-    "../assets/playtime.png",
-    "../assets/progress.png",
-    "../assets/kockak.jpg",
-    "../assets/tabletta.jpg",
+    "assets/playtime.png",
+    "assets/progress.png",
+    "assets/kockak.jpg",
+    "assets/tabletta.jpg",
   ];
   const image_text = ["Játékidő", "Haladás", "Haladás", "Haladás"];
   const pic_holder = document.getElementById("imghold");
