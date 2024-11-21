@@ -1,0 +1,14 @@
+p {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  word-spacing: 3px;
+}
+#tablazat {
+  width: 100%;
+  justify-self: center;
+}
+#tablazat img {
+  width: 100%;
+}
