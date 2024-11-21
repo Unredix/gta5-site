@@ -21,7 +21,7 @@
   border: 1px solid white;
 }
 .pic-holder {
-  width: 750px;
+  width: 100%;
   margin-top: 20px;
   height: 70%;
   background-color: rgb(27, 27, 27);
@@ -57,4 +57,25 @@
 .control-buttons button:hover {
   background-color: white;
   color: black;
+}
+.buttons {
+  margin-top: 40px;
+  justify-self: center;
+}
+.site-end {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .pic-container {
+    transform: scale(0.7);
+    margin-top: -60px;
+  }
+  .controls {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pic-container {
+    transform: scale(0.6);
+  }
 }

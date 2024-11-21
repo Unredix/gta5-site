@@ -2,10 +2,31 @@ document.addEventListener("DOMContentLoaded", function () {
   const imges = [
     "assets/playtime.png",
     "assets/progress.png",
-    "assets/kockak.jpg",
-    "assets/tabletta.jpg",
+    "assets/271590_13.jpg",
+    "assets/271590_14.jpg",
+    "assets/271590_12.jpg",
+    "assets/271590_15.jpg",
+    "assets/271590_16.jpg",
+    "assets/271590_17.jpg",
+    "assets/271590_18.jpg",
+    "assets/271590_19.jpg",
+    "assets/271590_20.jpg",
+    "assets/271590_21.jpg",
   ];
-  const image_text = ["Játékidő", "Haladás", "Haladás", "Haladás"];
+  const image_text = [
+    "A jelenlegi játékidőm",
+    "Ahogy a fiókom haladt",
+    "A casino amikor belépsz",
+    "Mentőautó a játékban",
+    "Az egyik sportautóm",
+    "Egy játékmód amit többen lehet játszani",
+    "Ahogy a minigame elindul",
+    "Egy offroad katonai jármű",
+    `"Ultralight"-ra hallgató repülő`,
+    "A járműnek belső része",
+    "Tájkép",
+    "Ejtőernyőzés lefelé",
+  ];
   const pic_holder = document.getElementById("imghold");
   const forward_b = document.getElementById("forward-b");
   const backward_b = document.getElementById("backward-b");

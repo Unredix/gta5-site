@@ -1,0 +1,53 @@
+.banner {
+  width: 100%;
+  text-align: center;
+}
+.banner-text {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+  color: black;
+  font-size: 1.8em;
+  font-family: "GTA", sans-serif;
+}
+.videos-container {
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+.row-items {
+  border: 2px solid white;
+  border-radius: 6px;
+  transition: all ease-in-out 0.5s;
+  margin-top: 25px;
+}
+.row-items:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.row-items img {
+  width: 500px;
+}
+.row-items p {
+  text-align: center;
+}
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  z-index: 100;
+}
+.video {
+  justify-self: center;
+  margin-top: 150px;
+}

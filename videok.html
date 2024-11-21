@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="CSS/default.css" />
     <link rel="stylesheet" href="CSS/videok.css" />
     <link rel="font" href="PricedownBl-Regular 900.ttf" name="pricedown" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'nonce-randomValue';"
+    />
+    <script src="js/videok.js" nonce="randomValue"></script>
   </head>
   <header>
     <div class="header-line">
@@ -21,5 +26,55 @@
       </div>
     </div>
   </header>
-  <body></body>
+  <body>
+    <div id="overlay" class="hidden">
+      <div class="video">
+        <iframe
+          width="1120"
+          height="630"
+          src="https://www.youtube.com/embed/dXOVAt6zplQ?si=FHmjG61pu5Chm4Fr"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="banner">
+        <div class="banner-text">
+          <h1>Videók</h1>
+        </div>
+      </div>
+      <div class="videos-container">
+        <div class="videos-content">
+          <div class="row">
+            <div class="row-items" id="item1">
+              <img src="assets/vid-kep1.jpg" alt="Placeholder" />
+              <p>Minigame videó</p>
+            </div>
+            <div class="row-items" id="item2">
+              <img src="assets/vid-kep2.jpg" alt="Placeholder" />
+              <p>Fel a hegyre</p>
+            </div>
+            <div class="row-items" id="item3">
+              <img src="assets/vid-kep3.jpg" alt="Placeholder" />
+              <p>Az élet két másodperce</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-items" id="item4">
+              <img src="assets/vid-kep4.jpg" alt="Placeholder" />
+              <p>Motorozás a helyen</p>
+            </div>
+            <div class="row-items" id="item5">
+              <img src="assets/vid-kep5.jpg" alt="Placeholder" />
+              <p>Kocsikázás</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
