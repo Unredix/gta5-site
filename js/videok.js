@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "https://www.youtube.com/embed/nPEQ89UdcLU?si=psTXtuGx8kokJAl3",
     "https://www.youtube.com/embed/p6uSm1vgjfg?si=Z1VCjI8EqP0AvPcA",
     "https://www.youtube.com/embed/6yjrTSOKyHs?si=9X3qHFq3EaKZq6Y1",
-    "https://www.youtube.com/embed/N-bX-MPjY_w?si=hGfKbWUD1Wqn4Q-I",
+    "https://www.youtube.com/embed/D0W4oRCU6qA?si=YFajcf8PoAL6z5dT",
   ];
 
   document.getElementById("item1").addEventListener("click", function () {

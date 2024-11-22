@@ -107,6 +107,9 @@
   .content-paragraph {
     font-size: 1.3em;
   }
+  .video {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .content-container {
